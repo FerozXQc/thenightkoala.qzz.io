@@ -1,0 +1,25 @@
+#homeHero{
+    background-image: url('../images/heroHome_background.jpg');
+    background-size: cover;
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:500px;
+    border-bottom: 1px;
+    box-shadow: 0 0 1px;
+    h3{
+        backdrop-filter: blur(0.5px);
+        font-size: 60px;
+    }
+    p{
+        backdrop-filter: blur(0.5px);
+        font-size: 20px;
+    }
+}
+
+.ctaBtns{
+    display: flex;
+}
