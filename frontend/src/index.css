@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-text)
+}
+
+body{
+  background-color: var(--color-bg);
+}
+
+
+:root {
+  /* palette */
+  --green-100: #E0FBE2;
+  --green-200: #BFF6C3;
+  --green-300: #ACE1AF;
+  --green-700: #27391C;
+  --green-800: #1F7D53;
+  --green-900: #18230F;
+}
+
+:root {
+  --color-bg: var(--green-100);
+  --color-surface: var(--green-200);
+  --color-text: var(--green-700);
+  --color-accent: var(--green-800);
+}
+
+[data-theme="dark"] {
+  --color-bg: var(--green-900);
+  --color-surface: var(--green-700);
+  --color-text: var(--green-100);
+  --color-accent: var(--green-300);
+}
+
+
+.btn{
+  margin: 20px;
+        padding: 10px;
+        background-color: var(--color-accent);
+        border: none;
+        box-shadow:rgba(0, 0, 0, 0.438) 0 0 5px;
+        width: 150px;
+        border-radius: 4px;
+        color: black;
+        transition: background-color ease-in-out 0.015s;
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: var(--color-bg);
+  background-color: var(--color-text)
+}
